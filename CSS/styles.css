@@ -1,0 +1,104 @@
+.container-intro {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:;
+
+}
+.container-intro h1{
+	font-family: 'Dr Sugiyama', cursive;
+	font-size:7em;
+	padding-top: -10em;
+	letter-spacing:0.08em;
+	line-height: 0.04em;
+
+}
+.container-intro h2{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 0.1em;
+
+}
+
+.container-intro p {
+	text-align: justify;
+	font-family: 'Yeseva One', Georgia, serif;
+	color:;
+	width: auto;
+	display: inline-block;
+	background-color: gray;
+
+
+}
+
+.container-social {
+	text-transform: uppercase;
+	list-style: none;
+	text-transform: uppercase;
+	margin:0, auto;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.container-social li{
+	display: inline;
+	text-align: center;
+	padding-right: 2em;
+	
+}
+
+.hr-1 {
+	display: block;
+    -webkit-margin-before: 0.05em;
+    -webkit-margin-after: 0.05em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-top: 2px solid #37424A;
+    border-bottom: none;
+    max-width: 180px;
+
+}
+
+.hr-2 {
+	display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+        border-top: 1px solid #37424A;
+    border-bottom: none;
+    margin-bottom: 20px;
+    max-width: 780px;
+
+}
+
+
+
+
+div {
+    display: block;
+
+}
+
+.container-intro-image {
+	text-align: center;
+}
+
+/*Profile Section*/
+img.align-center {
+	display:block;
+	margin:20px;
+	float:left;
+	margin-bottom: 20px;
+	background-color:gray;
+	text-align: center
+
+}
+.about{
+	padding-top: 60px;
+}
+
+
