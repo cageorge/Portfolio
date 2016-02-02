@@ -1,104 +1,171 @@
-.container-intro {
-    width: 960px;
-    margin: 0 auto;
-    text-align: center;
-    background-color:;
-
-}
-.container-intro h1{
-	font-family: 'Dr Sugiyama', cursive;
-	font-size:7em;
-	padding-top: -10em;
-	letter-spacing:0.08em;
-	line-height: 0.04em;
-
-}
-.container-intro h2{
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	letter-spacing: 0.1em;
-
+body{
+	margin:0;
+	padding:0;
+	zoom: 1;
 }
 
-.container-intro p {
-	text-align: justify;
-	font-family: 'Yeseva One', Georgia, serif;
-	color:;
-	width: auto;
-	display: inline-block;
-	background-color: gray;
+div {
+	display:block;
+}
 
+.content-quote .container {
+	width:960px;
+	margin: 100px auto;
+	border: solid 5px #98874F;
+}
+
+.container {
+	width:960px;
+	margin: 100px auto;
+	
 
 }
 
-.container-social {
-	text-transform: uppercase;
-	list-style: none;
-	text-transform: uppercase;
-	margin:0, auto;
-	text-align: center;
-	padding-top: 1em;
-}
-
-.container-social li{
-	display: inline;
-	text-align: center;
-	padding-right: 2em;
+hr {
+	width:80%;
 	
 }
 
-.hr-1 {
+/*Navigation Section*/
+.navbar-list {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #424242;
+}
+
+.section-nav-navbar li {
+	float:left;
+}
+
+
+.section-nav-navbar li a{
 	display: block;
-    -webkit-margin-before: 0.05em;
-    -webkit-margin-after: 0.05em;
-    -webkit-margin-start: auto;
-    -webkit-margin-end: auto;
-    border-style: inset;
-    border-width: 1px;
-    border-top: 2px solid #37424A;
-    border-bottom: none;
-    max-width: 180px;
-
+	color:white;
+	text-align: center;
+	padding:16px 16px;
+	text-decoration: none;
 }
 
-.hr-2 {
+.active {
+	background-color: #B9F6CA;
+}
+
+h2 {
+	font-family: 'Megrim', cursive;
+}
+
+
+
+/*Header Section*/
+.section-header-head {
+	background: url(https://images.unsplash.com/photo-1432873837230-ba73612038b5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8abeeb90ea9517795e037dbb5221686c);
+	background-size: cover;
+	padding:90px 0 300px;
+	background-repeat: repeat;
+}	
+
+.section-header-head h1{
 	display: block;
-    -webkit-margin-before: 0.5em;
-    -webkit-margin-after: 0.5em;
-    -webkit-margin-start: auto;
-    -webkit-margin-end: auto;
-    border-style: inset;
-    border-width: 1px;
-        border-top: 1px solid #37424A;
-    border-bottom: none;
-    margin-bottom: 20px;
-    max-width: 780px;
-
+	-webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: #fff;
+    text-align: left;
+    text-transform:uppercase;
+    margin:0 0 60px 20px;
+    outline: solid 5px white;
+    width:370px;
+    font-variant-caps:small-caps; 
+ 
 }
-
-
-
-
-div {
-    display: block;
-
-}
-
-.container-intro-image {
+/*Social Section*/
+.social{
 	text-align: center;
 }
+.masthead-social-list {
+	text-transform: uppercase;
+	color:#fff;
+	display: inline-block;
+	padding: 3em 3em 0em;
 
-/*Profile Section*/
-img.align-center {
-	display:block;
-	margin:20px;
+}
+
+.project-one {
+	position:relative;
+	display:inline-block;
+	padding:10px;
+	
+}
+
+.project-two {
+	position:relative;
+	display:inline-block;
+	padding:10px;
 	float:left;
-	margin-bottom: 20px;
-	background-color:gray;
-	text-align: center
-
-}
-.about{
-	padding-top: 60px;
 }
 
+.project-three {
+	position:relative;
+	display:inline-block;
+	padding:10px;
+	float: right;
+	}
+
+
+/*Quote Section*/
+.content-quote .container {
+	overflow: hidden;
+	padding:0px 180px 1.625rem 50px;
+	background-color: white;
+}
+
+.content-quote h2 {
+	font-size: 2.75rem;
+	margin:1.625rem; 0 3.123rem;
+	font-weight: 300;
+}
+
+.content-quote .quote p{
+	max-width: 700px;
+	text-align: justify;
+	display: block;
+	float: right;
+	margin-right: 80px;
+	line-height: 2rem;
+
+}
+
+/*Porfolio Section*/
+.portfolio {
+	margin-top: 2em;
+	padding-bottom:5rem;
+	overflow: hidden;
+}
+
+.portfolio h2 {
+	font-size: 2.75rem;
+	margin:1.625rem; 0 3.123rem;
+	font-weight: 300;
+}
+
+.portfolio .project-two {
+	width:28%;
+	display:inline-block;
+	padding-left: 1rem;
+}
+
+figcaption {
+	text-align: center;
+	font-family: 'Megrim', cursive;
+
+}
+
+/*Blog Section*/
+.blog h2 {
+	font-size: 2.75rem;
+	margin:1.625rem; 0 3.123rem;
+	font-weight: 300;
 
