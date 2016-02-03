@@ -79,26 +79,20 @@ h2 {
     outline: solid 5px white;
     width:370px;
     font-variant-caps:small-caps; 
- 
 }
+
 /*Social Section*/
 .social{
 	text-align: center;
 }
 .masthead-social-list {
 	text-transform: uppercase;
-	color:#fff;
+	color:#98874F;
 	display: inline-block;
 	padding: 3em 3em 0em;
 
 }
 
-.project-one {
-	position:relative;
-	display:inline-block;
-	padding:10px;
-	
-}
 
 .project-two {
 	position:relative;
@@ -168,4 +162,24 @@ figcaption {
 	font-size: 2.75rem;
 	margin:1.625rem; 0 3.123rem;
 	font-weight: 300;
+}
+/*Media Queries*/
+
+@media only screen and (max-width: 500px) {
+    hr {
+    	text-align: center;
+		color:purple;
+    }
+
+    h2 {
+    	font-size: 2rem;
+    	color:#98874F;
+    }
+
+    img {
+    	display: block;
+    }
+}
+
+
 
